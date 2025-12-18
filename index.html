@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber Wrld Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="images/x-icon" href="https://uniuyo.edu.ng/eportals.uniuyo.edu.ng/images/favicon.ico">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <script>
+    tailwind.config = { darkMode: 'class' }
+  </script>
+</head>
+
+<body class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-500">
+
+  <!-- Header -->
+  <header class="flex justify-between items-center px-6 py-4 bg-white dark:bg-gray-800 shadow">
+    <h1 class="text-lg md:text-xl font-bold">Welcome To Cyber World</h1>
+    <button id="themeToggle" 
+            class="flex items-center gap-2 px-4 py-2 text-sm rounded-md bg-green-600 text-white hover:bg-green-700 transition">
+      🌙 Dark Mode
+    </button>
+  </header>
+
+  <!-- Main Section -->
+  <section class="py-20">
+    <div class="container mx-auto px-4">
+
+      <!-- Dynamic Greeting -->
+      <div class="text-center mb-12">
+        <h2 id="greeting" class="text-2xl md:text-3xl font-bold">Welcome to the Cyber World of Innovation! 👋</h2>
+        <p class="text-gray-500 dark:text-gray-400 mt-2">Building a Safer Cyberspace!</p>
+        <div class="w-24 h-1 bg-green-600 mx-auto mt-4 rounded-full"></div>
+      </div>
+
+      <!-- Grid of Cards -->
+      <div class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
+
+        <!-- About Cybersecurity -->
+        <a href="https://www.ibm.com/think/topics/cybersecurity/" target="_blank" 
+           class="group relative block p-8 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl overflow-hidden transition">
+          <div class="absolute top-0 right-0 w-24 h-24 bg-gray-100 dark:bg-gray-700 rounded-bl-[130px] transition group-hover:bg-green-600"></div>
+          <div class="absolute top-5 right-6 text-green-600 text-4xl z-10 transition group-hover:text-white">
+            <i class="fas fa-gem"></i>
+          </div>
+          <div class="relative">
+            <h4 class="text-xl font-semibold">ABOUT CYBERSECURITY</h4>
+            <h5 class="text-md mt-1">More Information</h5>
+            <div class="w-20 h-1 bg-green-600 mt-4 rounded-full"></div>
+          </div>
+        </a>
+
+        <!-- Learn Python -->
+        <a href="https://www.w3schools.com/python/" target="_blank" 
+           class="group relative block p-8 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl overflow-hidden transition">
+          <div class="absolute top-0 right-0 w-24 h-24 bg-gray-100 dark:bg-gray-700 rounded-bl-[130px] transition group-hover:bg-green-600"></div>
+          <div class="absolute top-5 right-6 text-green-600 text-4xl z-10 transition group-hover:text-white">
+            <i class="fas fa-cogs"></i>
+          </div>
+          <div class="relative">
+            <h4 class="text-xl font-semibold">LEARN PYTHON</h4>
+            <h5 class="text-md mt-1">Biginners Level</h5>
+            <div class="w-20 h-1 bg-green-600 mt-4 rounded-full"></div>
+          </div>
+        </a>
+
+        <!-- Learn HTML -->
+        <a href="https://www.w3schools.com/html/" target="_blank" 
+           class="group relative block p-8 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl overflow-hidden transition">
+          <div class="absolute top-0 right-0 w-24 h-24 bg-gray-100 dark:bg-gray-700 rounded-bl-[130px] transition group-hover:bg-green-600"></div>
+          <div class="absolute top-5 right-6 text-green-600 text-4xl z-10 transition group-hover:text-white">
+            <i class="fas fa-signature"></i>
+          </div>
+          <div class="relative">
+            <h4 class="text-xl font-semibold">LEARN HTML</h4>
+            <h5 class="text-md mt-1">Biginners Level HTML</h5>
+            <div class="w-20 h-1 bg-green-600 mt-4 rounded-full"></div>
+          </div>
+        </a>
+
+        <!-- Learn CSS -->
+        <a href="https://www.w3schools.com/css/" target="_blank" 
+           class="group relative block p-8 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl overflow-hidden transition">
+          <div class="absolute top-0 right-0 w-24 h-24 bg-gray-100 dark:bg-gray-700 rounded-bl-[130px] transition group-hover:bg-green-600"></div>
+          <div class="absolute top-5 right-6 text-green-600 text-4xl z-10 transition group-hover:text-white">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <div class="relative">
+            <h4 class="text-xl font-semibold">LEARN CSS</h4>
+            <h5 class="text-md mt-1">Biginners Level CSS</h5>
+            <div class="w-20 h-1 bg-green-600 mt-4 rounded-full"></div>
+          </div>
+        </a>
+
+        <!-- Learn Java Script -->
+        <a href="https://www.w3schools.com/java/" target="_blank" 
+           class="group relative block p-8 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl overflow-hidden transition">
+          <div class="absolute top-0 right-0 w-24 h-24 bg-gray-100 dark:bg-gray-700 rounded-bl-[130px] transition group-hover:bg-green-600"></div>
+          <div class="absolute top-5 right-6 text-green-600 text-4xl z-10 transition group-hover:text-white">
+            <i class="far fa-clock"></i>
+          </div>
+          <div class="relative">
+            <h4 class="text-xl font-semibold">LEARN JAVASCRIPT J.S</h4>
+            <h5 class="text-md mt-1">Biginners Level j.s</h5>
+            <div class="w-20 h-1 bg-green-600 mt-4 rounded-full"></div>
+          </div>
+        </a>
+
+        <!-- Learn SQL -->
+        <a href="https://www.w3schools.com/sql/" target="_blank" 
+           class="group relative block p-8 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl overflow-hidden transition">
+          <div class="absolute top-0 right-0 w-24 h-24 bg-gray-100 dark:bg-gray-700 rounded-bl-[130px] transition group-hover:bg-green-600"></div>
+          <div class="absolute top-5 right-6 text-green-600 text-4xl z-10 transition group-hover:text-white">
+            <i class="fas fa-adjust"></i>
+          </div>
+          <div class="relative">
+            <h4 class="text-xl font-semibold">LEARN SQL</h4>
+            <h5 class="text-md mt-1">Biginners Level SQL</h5>
+            <div class="w-20 h-1 bg-green-600 mt-4 rounded-full"></div>
+          </div>
+        </a>
+
+        <!-- About the author -->
+        <a href="https://chat.whatsapp.com/HzaRAnpbiEw3esAnf4OfIL?mode=hqrt1/" target="_blank" 
+           class="group relative block p-8 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl overflow-hidden transition">
+          <div class="absolute top-0 right-0 w-24 h-24 bg-gray-100 dark:bg-gray-700 rounded-bl-[130px] transition group-hover:bg-green-600"></div>
+          <div class="absolute top-5 right-6 text-green-600 text-4xl z-10 transition group-hover:text-white">
+            <i class="fas fa-adjust"></i>
+          </div>
+          <div class="relative">
+            <h4 class="text-xl font-semibold">AbOUT THE AUTHOR</h4>
+            <h5 class="text-md mt-1">Join my WhatsApp group for more</h5>
+            <div class="w-20 h-1 bg-green-600 mt-4 rounded-full"></div>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Dark Mode + Greeting Script -->
+  <script>
+    const htmlEl = document.documentElement;
+    const toggleBtn = document.getElementById('themeToggle');
+    const greeting = document.getElementById('greeting');
+
+    // Theme preference
+    if (localStorage.getItem('theme') === 'dark') {
+      htmlEl.classList.add('dark');
+      toggleBtn.textContent = "☀️ Light Mode";
+    } else {
+      toggleBtn.textContent = "🌙 Dark Mode";
+    }
+
+    toggleBtn.addEventListener('click', () => {
+      htmlEl.classList.toggle('dark');
+      if (htmlEl.classList.contains('dark')) {
+        localStorage.setItem('theme', 'dark');
+        toggleBtn.textContent = "☀️ Light Mode";
+      } else {
+        localStorage.setItem('theme', 'light');
+        toggleBtn.textContent = "🌙 Dark Mode";
+      }
+    });
+
+         </script>
+
+</body>
+</html>
